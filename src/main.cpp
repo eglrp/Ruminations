@@ -1,4 +1,5 @@
 ﻿/*
+ * main.cpp  测试程序
  *	lming_08@hotmail.com
  */
 #include "memleakcheck.h"
@@ -6,9 +7,6 @@
 #include <iostream>
 #include <string>
 #include <boost/shared_ptr.hpp>
-
-using std::cout;
-using std::endl;
 
 int main(void)
 {

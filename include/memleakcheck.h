@@ -1,5 +1,5 @@
 ﻿/*
- * VS环境下的内存泄漏检测工具
+ * memleakcheck.h  VS环境下的内存泄漏检测工具
  *	lming_08@hotmail.com
  */
 #ifndef _MEMLEAKCHECK_H_

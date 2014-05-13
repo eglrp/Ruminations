@@ -1,5 +1,5 @@
 ﻿/*
- * 引用计数
+ * refcount.h  引用计数
  *	lming_08@hotmail.com
  */
 #ifndef _REFCOUNT_H_

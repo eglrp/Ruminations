@@ -1,5 +1,5 @@
 ﻿/*
- * 智能指针
+ * smartpointer.h  智能指针
  *	lming_08@hotmail.com
  */
 #ifndef _SMARTPOINTER_H_
