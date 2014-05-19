@@ -11,12 +11,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\Bridge\abstraction.h" />
+    <ClInclude Include="include\Bridge\abstractionimp.h" />
     <ClInclude Include="include\memleakcheck.h" />
-    <ClInclude Include="include\refcount.h" />
-    <ClInclude Include="include\smartpointer.h" />
+    <ClInclude Include="include\SmartPointer\refcount.h" />
+    <ClInclude Include="include\SmartPointer\smartpointer.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Bridge\abstraction.cpp" />
+    <ClCompile Include="src\Bridge\test_bridge.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\SmartPointer\test_smartpointer.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{4C7D20EC-2A8A-49F6-8EC1-A143B01451E2}</ProjectGuid>

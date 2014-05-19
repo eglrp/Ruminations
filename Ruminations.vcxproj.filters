@@ -13,21 +13,48 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="include\Bridge">
+      <UniqueIdentifier>{661d5538-7cdc-4ae0-ae6c-899e29f5ae77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Bridge">
+      <UniqueIdentifier>{4056bd19-0d55-493a-bf38-092899609fc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\SmartPointer">
+      <UniqueIdentifier>{3f4f5fa7-ee01-47bc-853f-4a064887bd0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SmartPointer">
+      <UniqueIdentifier>{1912744c-07b6-4e59-b892-5a924a471386}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\memleakcheck.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="include\refcount.h">
-      <Filter>include</Filter>
+    <ClInclude Include="include\Bridge\abstraction.h">
+      <Filter>include\Bridge</Filter>
     </ClInclude>
-    <ClInclude Include="include\smartpointer.h">
-      <Filter>include</Filter>
+    <ClInclude Include="include\Bridge\abstractionimp.h">
+      <Filter>include\Bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SmartPointer\refcount.h">
+      <Filter>include\SmartPointer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SmartPointer\smartpointer.h">
+      <Filter>include\SmartPointer</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
       <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Bridge\abstraction.cpp">
+      <Filter>src\Bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SmartPointer\test_smartpointer.cpp">
+      <Filter>src\SmartPointer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Bridge\test_bridge.cpp">
+      <Filter>src\Bridge</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
